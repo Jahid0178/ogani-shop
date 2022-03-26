@@ -7,7 +7,7 @@ import Logo from "../../../Assets/Images/Logos/logo.png";
 const Navigation = () => {
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container mx-auto sticky top-0 bg-white">
         <nav className='flex justify-between items-center py-1 px-2'>
         <img src={Logo} alt="OGANI" />
         <ul className='hidden sm:block'>
