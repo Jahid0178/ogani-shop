@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const TopNav = () => {
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container mx-auto hidden sm:block">
         <nav className='py-1 px-2 flex justify-between items-center'>
           <ul>
             <li className='inline-block mr-2'>
