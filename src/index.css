@@ -14,3 +14,14 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Primary Input Field */
+@layer components {
+
+  .btn-primary {
+    color: #fff;
+    font-weight: bold;
+    background: #65A40D;
+    padding: 10px 20px;
+  }
+}
